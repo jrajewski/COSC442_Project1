@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="src" project="Monopoly" tests="44" started="44" failures="0" errors="9" ignored="0">
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.PropertyCellTest" time="0.001">
+    <testcase name="testPlayerAction" classname="edu.towson.cis.cosc442.project1.monopoly.PropertyCellTest" time="0.001">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCell.playAction(PropertyCell.java:48)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCellTest.testPlayerAction(PropertyCellTest.java:26)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.TradeDealTest" time="0.0">
+    <testcase name="testMakeMessage" classname="edu.towson.cis.cosc442.project1.monopoly.TradeDealTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0">
+    <testcase name="testJailCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0"/>
+    <testcase name="testJailCardLabel" classname="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0"/>
+    <testcase name="testJailCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.GoToJailCardTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.008">
+    <testcase name="testJailCardLabel" classname="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.0"/>
+    <testcase name="testMovePlayerCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.0"/>
+    <testcase name="testMovePlayerCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.MovePlayerCardTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GainMoneyCardTest" time="0.001">
+    <testcase name="testGainMoneyCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.GainMoneyCardTest" time="0.0"/>
+    <testcase name="testGainMoneyCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.GainMoneyCardTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.109">
+    <testcase name="testGameboardLayout" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.108"/>
+    <testcase name="testCellAddOrder14" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.0"/>
+    <testcase name="testCellAddOrder" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardCreationTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.006">
+    <testcase name="testExchangeProperty" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.001">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCell.playAction(PropertyCell.java:48)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMaster.btnEndTurnClicked(GameMaster.java:53)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PlayerTest.testExchangeProperty(PlayerTest.java:53)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testPurchaseProperty" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+    <testcase name="testResetProperty" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+    <testcase name="testPayRentTo" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.001">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCell.playAction(PropertyCell.java:48)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMaster.btnEndTurnClicked(GameMaster.java:53)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PlayerTest.testPayRentTo(PlayerTest.java:42)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testPurchaseHouse" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.002">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCell.playAction(PropertyCell.java:48)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMaster.btnEndTurnClicked(GameMaster.java:53)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PlayerTest.testPurchaseHouse(PlayerTest.java:63)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testSameGoCell" classname="edu.towson.cis.cosc442.project1.monopoly.PlayerTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.CardsTest" time="0.001">
+    <testcase name="testCardType" classname="edu.towson.cis.cosc442.project1.monopoly.CardsTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.003">
+    <testcase name="testRent" classname="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.002"/>
+    <testcase name="testPlayerAction" classname="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.RailRoadCell.playAction(RailRoadCell.java:24)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest.testPlayerAction(RailRoadCellTest.java:24)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testPurchaseRailroad" classname="edu.towson.cis.cosc442.project1.monopoly.RailRoadCellTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.002">
+    <testcase name="testAddCell" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.0"/>
+    <testcase name="testPropertyNumberForColor" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.0"/>
+    <testcase name="testQueryCell" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.001"/>
+    <testcase name="testQueryCellIndex" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.0"/>
+    <testcase name="testCellsForMonopoly" classname="edu.towson.cis.cosc442.project1.monopoly.GameboardTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.CellInfoFormatterTest" time="0.006">
+    <testcase name="testPropertyCellText" classname="edu.towson.cis.cosc442.project1.monopoly.CellInfoFormatterTest" time="0.005"/>
+    <testcase name="testGoCellTest" classname="edu.towson.cis.cosc442.project1.monopoly.CellInfoFormatterTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.005">
+    <testcase name="testButtonPurchasePropertyClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testReset" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.003"/>
+    <testcase name="testInit" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testTurn" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0"/>
+    <testcase name="testButtonGetOutOfJailClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GoToJailCell.playAction(GoToJailCell.java:9)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMaster.btnEndTurnClicked(GameMaster.java:53)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMasterTest.testButtonGetOutOfJailClicked(GameMasterTest.java:76)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testTradeProcess" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCell.playAction(PropertyCell.java:48)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMaster.btnEndTurnClicked(GameMaster.java:53)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMasterTest.testTradeProcess(GameMasterTest.java:48)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testButtonTradeClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.001">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.PropertyCell.playAction(PropertyCell.java:48)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMaster.btnEndTurnClicked(GameMaster.java:53)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.GameMasterTest.testButtonTradeClicked(GameMasterTest.java:108)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testButtonRollDiceClicked" classname="edu.towson.cis.cosc442.project1.monopoly.GameMasterTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.001">
+    <testcase name="testPurchaseUtility" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.0"/>
+    <testcase name="testRent" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.0"/>
+    <testcase name="testPlayerAction" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.001">
+      <error>java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type boolean
+&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.UtilityCell.playAction(UtilityCell.java:25)&#13;
+	at edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest.testPlayerAction(UtilityCellTest.java:34)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at junit.framework.TestCase.runTest(TestCase.java:176)&#13;
+	at junit.framework.TestCase.runBare(TestCase.java:141)&#13;
+	at junit.framework.TestResult$1.protect(TestResult.java:122)&#13;
+	at junit.framework.TestResult.runProtected(TestResult.java:142)&#13;
+	at junit.framework.TestResult.run(TestResult.java:125)&#13;
+	at junit.framework.TestCase.run(TestCase.java:129)&#13;
+	at junit.framework.TestSuite.runTest(TestSuite.java:252)&#13;
+	at junit.framework.TestSuite.run(TestSuite.java:247)&#13;
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testMonopoly" classname="edu.towson.cis.cosc442.project1.monopoly.UtilityCellTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="edu.towson.cis.cosc442.project1.monopoly.LoseMoneyCardTest" time="0.001">
+    <testcase name="testLoseMoneyCardUI" classname="edu.towson.cis.cosc442.project1.monopoly.LoseMoneyCardTest" time="0.0"/>
+    <testcase name="testLoseMoneyCardAction" classname="edu.towson.cis.cosc442.project1.monopoly.LoseMoneyCardTest" time="0.001"/>
+  </testsuite>
+</testrun>
