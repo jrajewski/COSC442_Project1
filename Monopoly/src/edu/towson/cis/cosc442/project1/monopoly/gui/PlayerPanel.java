@@ -15,26 +15,53 @@ import javax.swing.border.BevelBorder;
 
 import edu.towson.cis.cosc442.project1.monopoly.*;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class PlayerPanel.
+ */
 public class PlayerPanel extends JPanel {
 
+    /** The player panel product 7. */
     private PlayerPanelProduct7 playerPanelProduct7 = new PlayerPanelProduct7();
+	
+	/** The player panel product 6. */
 	private PlayerPanelProduct6 playerPanelProduct6 = new PlayerPanelProduct6();
+	
+	/** The player panel product 5. */
 	private PlayerPanelProduct5 playerPanelProduct5 = new PlayerPanelProduct5();
+	
+	/** The player panel product 4. */
 	private PlayerPanelProduct4 playerPanelProduct4 = new PlayerPanelProduct4();
+	
+	/** The player panel product 3. */
 	private PlayerPanelProduct3 playerPanelProduct3 = new PlayerPanelProduct3();
+	
+	/** The player panel product 2. */
 	private PlayerPanelProduct2 playerPanelProduct2 = new PlayerPanelProduct2();
+	
+	/** The player panel product. */
 	private PlayerPanelProduct playerPanelProduct = new PlayerPanelProduct();
-	/**
-	 * 
-	 */
+	
+	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 1L;
+	
+	/** The lbl money. */
 	private JLabel lblMoney;
+    
+    /** The lbl name. */
     private JLabel lblName;
     
+    /** The player. */
     private Player player;
     
+    /** The txt property. */
     private JTextArea txtProperty;
 
+    /**
+     * Instantiates a new player panel.
+     *
+     * @param player the player
+     */
     public PlayerPanel(Player player) {
         JPanel pnlAction = new JPanel();
         JPanel pnlInfo = new JPanel();
@@ -140,6 +167,9 @@ public class PlayerPanel extends JPanel {
         });
     }
 
+    /**
+     * Display info.
+     */
     public void displayInfo() {
         lblName.setText(player.getName());
         lblMoney.setText("$ " + player.getMoney());
@@ -151,58 +181,128 @@ public class PlayerPanel extends JPanel {
         txtProperty.setText(buf.toString());
     }
     
+    /**
+     * Checks if is buy house button enabled.
+     *
+     * @return true, if is buy house button enabled
+     */
     public boolean isBuyHouseButtonEnabled() {
         return playerPanelProduct3.isBuyHouseButtonEnabled();
     }
 
+    /**
+     * Checks if is draw card button enabled.
+     *
+     * @return true, if is draw card button enabled
+     */
     public boolean isDrawCardButtonEnabled() {
         return playerPanelProduct7.isDrawCardButtonEnabled();
     }
 
+    /**
+     * Checks if is end turn button enabled.
+     *
+     * @return true, if is end turn button enabled
+     */
     public boolean isEndTurnButtonEnabled() {
         return playerPanelProduct2.isEndTurnButtonEnabled();
     }
     
+    /**
+     * Checks if is gets the out of jail button enabled.
+     *
+     * @return true, if is gets the out of jail button enabled
+     */
     public boolean isGetOutOfJailButtonEnabled() {
         return playerPanelProduct4.isGetOutOfJailButtonEnabled();
     }
     
+    /**
+     * Checks if is purchase property button enabled.
+     *
+     * @return true, if is purchase property button enabled
+     */
     public boolean isPurchasePropertyButtonEnabled() {
         return playerPanelProduct5.isPurchasePropertyButtonEnabled();
     }
     
+    /**
+     * Checks if is roll dice button enabled.
+     *
+     * @return true, if is roll dice button enabled
+     */
     public boolean isRollDiceButtonEnabled() {
         return playerPanelProduct6.isRollDiceButtonEnabled();
     }
 
+    /**
+     * Checks if is trade button enabled.
+     *
+     * @return true, if is trade button enabled
+     */
     public boolean isTradeButtonEnabled() {
         return playerPanelProduct.isTradeButtonEnabled();
     }
 
+    /**
+     * Sets the buy house enabled.
+     *
+     * @param b the new buy house enabled
+     */
     public void setBuyHouseEnabled(boolean b) {
         playerPanelProduct3.setBuyHouseEnabled(b);
     }
 
+    /**
+     * Sets the draw card enabled.
+     *
+     * @param b the new draw card enabled
+     */
     public void setDrawCardEnabled(boolean b) {
         playerPanelProduct7.setDrawCardEnabled(b);
     }
 
+    /**
+     * Sets the end turn enabled.
+     *
+     * @param enabled the new end turn enabled
+     */
     public void setEndTurnEnabled(boolean enabled) {
         playerPanelProduct2.setEndTurnEnabled(enabled);
     }
 
+    /**
+     * Sets the gets the out of jail enabled.
+     *
+     * @param b the new gets the out of jail enabled
+     */
     public void setGetOutOfJailEnabled(boolean b) {
         playerPanelProduct4.setGetOutOfJailEnabled(b);
     }
 
+    /**
+     * Sets the purchase property enabled.
+     *
+     * @param enabled the new purchase property enabled
+     */
     public void setPurchasePropertyEnabled(boolean enabled) {
         playerPanelProduct5.setPurchasePropertyEnabled(enabled);
     }
 
+    /**
+     * Sets the roll dice enabled.
+     *
+     * @param enabled the new roll dice enabled
+     */
     public void setRollDiceEnabled(boolean enabled) {
         playerPanelProduct6.setRollDiceEnabled(enabled);
     }
 
+    /**
+     * Sets the trade enabled.
+     *
+     * @param b the new trade enabled
+     */
     public void setTradeEnabled(boolean b) {
         playerPanelProduct.setTradeEnabled(b);
     }
