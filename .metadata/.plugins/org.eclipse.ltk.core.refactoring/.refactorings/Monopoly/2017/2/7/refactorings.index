@@ -3,3 +3,4 @@
 1487309752036	Pull up members to 'Cell'
 1487309979785	Extract interface 'IOwnable'
 1487310272930	Extract method 'calculateMonopoliesRent'
+1487310513033	Extract local variable 'colorGroup'
