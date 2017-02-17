@@ -1,3 +1,4 @@
 1487309415179	Rename field 'owner'
 1487309598635	Push down
 1487309752036	Pull up members to 'Cell'
+1487309979785	Extract interface 'IOwnable'
