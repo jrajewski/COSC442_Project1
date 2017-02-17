@@ -2,3 +2,4 @@
 1487309598635	Push down
 1487309752036	Pull up members to 'Cell'
 1487309979785	Extract interface 'IOwnable'
+1487310272930	Extract method 'calculateMonopoliesRent'
