@@ -1,0 +1,182 @@
+package edu.towson.cis.cosc442.project1.monopoly;
+
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Hashtable;
+
+
+public class Player {
+	private PlayerProduct2 playerProduct2 = new PlayerProduct2();
+	private boolean inJail;
+	private int money;
+	private String name;
+
+	private IOwnable position;
+	public Player() {
+		GameBoard gb = GameMaster.instance().getGameBoard();
+		inJail = false;
+		if(gb != null) {
+			position = gb.queryCell("Go");
+		}
+	}
+
+    public void buyProperty(Cell property, int amount) {
+        playerProduct2.buyProperty(property, amount, this.money, this);
+    }
+	
+	public boolean canBuyHouse() {
+		return playerProduct2.canBuyHouse();
+	}
+
+	public boolean checkProperty(String property) {
+		return playerProduct2.checkProperty(property);
+		
+	}
+	
+	public void exchangeProperty(Player player) {
+		playerProduct2.exchangeProperty(player);
+	}
+    
+    public IOwnable[] getAllProperties() {
+        return playerProduct2.getAllProperties();
+    }
+
+	public int getMoney() {
+		return this.money;
+	}
+	
+	public String[] getMonopolies() {
+		return playerProduct2.getPlayerProduct().getMonopolies();
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void getOutOfJail() {
+		money -= JailCell.BAIL;
+		if(isBankrupt()) {
+			money = 0;
+			playerProduct2.exchangeProperty(null);
+		}
+		inJail = false;
+		GameMaster.instance().updateGUI();
+	}
+
+	public IOwnable getPosition() {
+		return this.position;
+	}
+	
+	public PropertyCell getProperty(int index) {
+		return playerProduct2.getProperty(index);
+	}
+	
+	public int getPropertyNumber() {
+		return playerProduct2.getPropertyNumber();
+	}
+
+	public boolean isBankrupt() {
+		return money <= 0;
+	}
+
+	public boolean isInJail() {
+		return inJail;
+	}
+
+	public int numberOfRR() {
+		return playerProduct2.getPlayerProduct().getPropertyNumberForColor(RailRoadCell.COLOR_GROUP);
+	}
+
+	public int numberOfUtil() {
+		return playerProduct2.getPlayerProduct().getPropertyNumberForColor(UtilityCell.COLOR_GROUP);
+	}
+	
+	public void payRentTo(Player owner, int rentValue) {
+		if(money < rentValue) {
+			owner.money += money;
+			money -= rentValue;
+		}
+		else {
+			money -= rentValue;
+			owner.money +=rentValue;
+		}
+		if(isBankrupt()) {
+			money = 0;
+			playerProduct2.exchangeProperty(owner);
+		}
+	}
+	
+	public void purchase() {
+		if(getPosition().isAvailable()) {
+			IOwnable c = getPosition();
+			c.setAvailable(false);
+			if(c instanceof PropertyCell) {
+				PropertyCell cell = (PropertyCell)c;
+				purchaseProperty(cell);
+			}
+			if(c instanceof RailRoadCell) {
+				RailRoadCell cell = (RailRoadCell)c;
+				purchaseRailRoad(cell);
+			}
+			if(c instanceof UtilityCell) {
+				UtilityCell cell = (UtilityCell)c;
+				purchaseUtility(cell);
+			}
+		}
+	}
+	
+	public void purchaseHouse(String selectedMonopoly, int houses) {
+		GameBoard gb = GameMaster.instance().getGameBoard();
+		PropertyCell[] cells = gb.getPropertiesInMonopoly(selectedMonopoly);
+		if((money >= (cells.length * (cells[0].getHousePrice() * houses)))) {
+			for(int i = 0; i < cells.length; i++) {
+				int newNumber = cells[i].getNumHouses() + houses;
+				if (newNumber <= 5) {
+					cells[i].setNumHouses(newNumber);
+					this.setMoney(money - (cells[i].getHousePrice() * houses));
+					GameMaster.instance().updateGUI();
+				}
+			}
+		}
+	}
+	
+	private void purchaseProperty(PropertyCell cell) {
+        playerProduct2.buyProperty(cell, cell.getPrice(), this.money, this);
+	}
+
+	private void purchaseRailRoad(RailRoadCell cell) {
+	    playerProduct2.buyProperty(cell, cell.getPrice(), this.money, this);
+	}
+
+	private void purchaseUtility(UtilityCell cell) {
+	    playerProduct2.buyProperty(cell, cell.getPrice(), this.money, this);
+	}
+
+    public void sellProperty(IOwnable property, int amount) {
+        playerProduct2.sellProperty(property, amount, this.money, this);
+    }
+
+	public void setInJail(boolean inJail) {
+		this.inJail = inJail;
+	}
+
+	public void setMoney(int money) {
+		this.money = money;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setPosition(IOwnable newPosition) {
+		this.position = newPosition;
+	}
+
+    public String toString() {
+        return name;
+    }
+    
+    public void resetProperty() {
+    	playerProduct2.resetProperty();
+	}
+}

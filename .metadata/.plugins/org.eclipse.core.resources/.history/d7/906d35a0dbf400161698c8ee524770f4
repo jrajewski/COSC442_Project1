@@ -1,0 +1,13 @@
+package edu.towson.cis.cosc442.project1.monopoly;
+
+
+/**
+ * @see edu.towson.cis.cosc442.project1.monopoly.Card#TYPE_CC
+ */
+public class TypeCc extends Type {
+	public Card btnDrawCardClicked(Card card, GameMaster gameMaster) {
+		card = gameMaster.getGameBoard().drawCCCard();
+		card.applyAction();
+		return card;
+	}
+}
